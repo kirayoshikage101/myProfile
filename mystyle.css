@@ -1,0 +1,55 @@
+body {
+    margin:0;
+    padding:0;
+    background-color: darkgrey;
+}
+
+.navbar {
+  margin: 0px;
+  padding: 0px;
+ background-color: black;
+ justify-content: auto;
+ float: center;
+}
+
+.nav ul li {
+  list-style: none;
+  margin: 0 4px;
+  display: inline-block;
+  line-height: 80px;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-family: 'Roboto', Sans-Serif;
+  transition: .4s;
+}
+
+.nav ul li a.active,
+  .nav ul li a:hover {
+    background: salmon;
+    border-radius: 2px;
+}
+
+.card {
+  border-radius: 11px;
+  float: auto;
+  border-color: red, 4px;
+  padding: 100px;
+  margin: 10px;
+  background-color: tomato;
+  justify: justify-content;
+}
+
+.img .My.profile {
+  padding-top: 20px;
+  background-color: rgb(255,255,255);
+  border-radius: 25%;
+  border-image: circle;
+}
+
+#Name {
+  text-align: center;
+}
